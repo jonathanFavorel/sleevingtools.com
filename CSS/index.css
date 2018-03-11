@@ -1,0 +1,141 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+nav{
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width:100%;
+  height: 60px;
+  padding:10px 80px;
+  box-sizing: border-box;
+  transition: .3s;
+  background-color: RGBa(0,0,0,0.5);
+}
+nav .logo{
+  padding: 25px 10px;
+  margin-left: -40px;
+  height: 40px;
+  padding-left: -40px;
+  margin-top: -20px;
+  float: left;
+  font-size: 20px;
+  color: #ffffff;
+}
+.logo a{
+  text-decoration: none;
+  color: white;
+}
+nav ul{
+  list-style: none;
+  float: right;
+  margin: 0px;
+  margin-top: 10px;
+  display: flex;
+  color: #ffffff;
+}
+nav ul li{
+  font-size: 20px;
+  font-size-adjust: auto;
+  list-style: none;
+  margin-left: 5px;
+}
+.list{
+  background: -webkit-linear-gradient(#ff6d06, #833b01, #ff6d06);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav ul li a{
+  text-align: center;
+  line-height: 10px;
+  color: #8C8D8D;
+  padding: 10px 35px;
+  text-decoration: none;
+  border-left: 2px solid;
+}
+#list1 a{
+  border-right: 2px solid;
+}
+.active a{
+  border-right: 2px solid;
+  font-size: 20px;
+  color: white;
+}
+.list a:hover{
+
+}
+.active a{
+  margin-left: 130px;
+  border-radius: 5px;
+  background: #FE4e4e;
+  border: solid 0px;
+  color: white;
+  margin-right: -15px;
+  padding-left: -30px;
+}
+nav ul li a:focus{
+  outline: none;
+}
+.background{
+  padding-top: 0.1%;
+  width: 100%;
+  height: 100vh;
+  background: url(img/ROG.jpg);
+  background-size: cover;
+  margin-top: -0px;
+  background-position: center;
+}
+.scroll {
+  margin-top: 40%;
+  margin-left: 40%
+}
+.scroll a{
+  text-decoration: none;
+  background: -webkit-linear-gradient(#ff6d06, #833b01, #ff6d06);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+  border: 3px solid #ff6d06;
+  border-style:  solid;
+  border-radius: 10px;
+  padding: 5px;
+}
+.paragraphe1{
+  font-size: 18px;
+  width: 700px;
+  color: #a54600;
+}
+.box1{
+  padding-left: 20px;
+  margin-left: 250px;
+  border: 3px solid rgba(999, 999, 999, .2);
+  border-radius: 15px;
+  margin-right: 55px;
+  margin-top: 5px;
+}
+section{
+    background: #161a1d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.box2{
+  text-align: left;
+  padding-right: 10px;
+  margin-left: 40px;
+  border: 3px solid rgba(999, 999, 999, .2);
+  border-radius: 15px;
+  margin-right: 300px;
+  margin-top: 75px;
+}
+.paragraphe2{
+  color: #a54600;
+  font-size: 18px;
+  width: 700px;
+  margin-left: 280px;
+}
+#box1{
+    margin-top: 75px;
+}
